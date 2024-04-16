@@ -12,3 +12,7 @@ Cílem bylo s žádnými nebo minimálními znalostmi vývoje softwaru a program
 - další případná vylepšení
 
 **Program má omezení způsobená svým původem a tvůrcem. Je zamýšlen jako jednoúčelová aplikace ke splnění specifické úlohy ve velmi specifickém prostředí digitalizační workflow konkrétního pracoviště. Úlohu lze splnit mnoha způsoby lépe. Použití na vlastní nebezpečí.**
+
+<p align="center">
+<img src="https://i.ibb.co/JpWSTnj/pocet-skenu.jpg" alt="Počet skenů v0.1.0-alpha">
+</p>
