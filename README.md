@@ -7,7 +7,8 @@ Cílem bylo s žádnými nebo minimálními znalostmi vývoje softwaru a program
 **Cílové podporované verze OS Windows:** nejnovější buildy Windows podporované Microsoftem, tzn. Windows 10 & 11 s posledními updaty.
 
 **Changelog 2025:**
-- vydaná v0.2.0-alpha
+**2025-02-17**
+- vydaná v0.2.0-alpha - přidána možnost spočítat více typů souborů s ohledem na výstupy digitalizace podle standardů NDK
 - možnost vygenerovat log
 - možnost spočítat soubory .txt, .xml, .jp2, .md5
 - možnost spočítat PSP včetně zadání správného kódu knihovny (počáteční název adresáře = datového balíčku = PSP / SIP)
