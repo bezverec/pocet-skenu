@@ -7,6 +7,7 @@ Cílem bylo s žádnými nebo minimálními znalostmi vývoje softwaru a program
 **Cílové podporované verze OS Windows:** nejnovější buildy Windows podporované Microsoftem, tzn. Windows 10 & 11 s posledními updaty.
 
 **Changelog 2025:**
+
 **2025-02-17**
 - vydaná v0.2.0-alpha - přidána možnost spočítat více typů souborů s ohledem na výstupy digitalizace podle standardů NDK
 - možnost vygenerovat log
