@@ -17,3 +17,7 @@ Cílem bylo s žádnými nebo minimálními znalostmi vývoje softwaru a program
 <p align="center">
 <img src="https://i.ibb.co/JpWSTnj/pocet-skenu.jpg" alt="Počet skenů v0.1.0-alpha">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/07954bf0-f2e8-45d3-b61a-553a040736c5" alt="Počet skenů v0.2.0-alpha" alt="Počet skenů v0.2.0-alpha">
+</p>
