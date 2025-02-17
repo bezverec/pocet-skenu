@@ -20,7 +20,7 @@
    <string>Počet skenů</string>
   </property>
   <property name="toolTip">
-   <string>Počet skenů v0.1.0-alpha</string>
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Počet skenů v0.2.0-alpha&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
@@ -38,10 +38,10 @@
      </font>
     </property>
     <property name="toolTip">
-     <string>Spočítat skeny z vybraného adresáře</string>
+     <string>Spočítat skeny z vybraného adresáře; případně i další soubory a množství PSP</string>
     </property>
     <property name="text">
-     <string>Spočítej skeny</string>
+     <string>Spočítej (skeny)</string>
     </property>
    </widget>
    <widget class="QToolButton" name="toolButton">
@@ -74,7 +74,7 @@
     </property>
     <property name="date">
      <date>
-      <year>2024</year>
+      <year>2025</year>
       <month>1</month>
       <day>1</day>
      </date>
@@ -94,7 +94,7 @@
     </property>
     <property name="date">
      <date>
-      <year>2024</year>
+      <year>2025</year>
       <month>12</month>
       <day>31</day>
      </date>
@@ -135,11 +135,14 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>Vyberte adresář klinutím na tlačítko se 3 tečkami</string>
+    </property>
     <property name="frameShape">
-     <enum>QFrame::Box</enum>
+     <enum>QFrame::Shape::Box</enum>
     </property>
     <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
+     <enum>QFrame::Shadow::Raised</enum>
     </property>
     <property name="text">
      <string>Není vybraný žádný adresář</string>
@@ -168,10 +171,148 @@
      </rect>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
     </property>
     <property name="text">
-     <string>v0.1.0-alpha</string>
+     <string>v0.2.0-alpha</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_countTxtFiles">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>210</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Spočítat soubory s koncovkou txt</string>
+    </property>
+    <property name="text">
+     <string>.txt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>190</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Spočítat další typy souborů:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_countXmlFiles">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Spočítat soubory s koncovkou xml</string>
+    </property>
+    <property name="text">
+     <string>.xml</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_countJp2Files">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>250</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Spočítat soubory s koncovkou jp2</string>
+    </property>
+    <property name="text">
+     <string>.jp2</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_countMd5Files">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>270</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Spočítat soubory s koncovkou md5</string>
+    </property>
+    <property name="text">
+     <string>.md5</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_prefix">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>240</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Zadat kód knihovny (začátek názvu PSP - adresáře)</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_countDirs">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>250</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Spočítat PSP (adresáře)</string>
+    </property>
+    <property name="text">
+     <string>PSP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zadat kód knihovny (URN:NBN) a spočítat balíčky:</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_generateLog">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Vygenerovat log po sečtení</string>
+    </property>
+    <property name="text">
+     <string>Vygenerovat log</string>
     </property>
    </widget>
   </widget>
